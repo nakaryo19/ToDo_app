@@ -1,7 +1,8 @@
 <?php
 
-// namespace Database\Seeders;
+namespace Database\Seeders;
 
+use App\Models\Task;
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

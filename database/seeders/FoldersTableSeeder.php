@@ -1,8 +1,11 @@
 <?php
 
-// namespace Database\Seeders;
+namespace Database\Seeders;
 
+use App\Models\Folder;
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class FoldersTableSeeder extends Seeder
 {
