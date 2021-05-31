@@ -45,7 +45,7 @@ class User extends Authenticatable
 
     public function folders()
     {
-        return $this->hasMany('App\Folder');
+        return $this->hasMany(Folder::class);
     }
 
     public function sendPasswordResetNotification($token)
